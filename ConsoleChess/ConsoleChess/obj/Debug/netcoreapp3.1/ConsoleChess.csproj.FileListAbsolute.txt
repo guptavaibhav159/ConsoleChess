@@ -1,0 +1,13 @@
+/home/c4tch/Documents/GitHub/ConsoleChess/ConsoleChess/ConsoleChess/bin/Debug/netcoreapp3.1/ConsoleChess
+/home/c4tch/Documents/GitHub/ConsoleChess/ConsoleChess/ConsoleChess/bin/Debug/netcoreapp3.1/ConsoleChess.deps.json
+/home/c4tch/Documents/GitHub/ConsoleChess/ConsoleChess/ConsoleChess/bin/Debug/netcoreapp3.1/ConsoleChess.runtimeconfig.json
+/home/c4tch/Documents/GitHub/ConsoleChess/ConsoleChess/ConsoleChess/bin/Debug/netcoreapp3.1/ConsoleChess.runtimeconfig.dev.json
+/home/c4tch/Documents/GitHub/ConsoleChess/ConsoleChess/ConsoleChess/bin/Debug/netcoreapp3.1/ConsoleChess.dll
+/home/c4tch/Documents/GitHub/ConsoleChess/ConsoleChess/ConsoleChess/bin/Debug/netcoreapp3.1/ConsoleChess.pdb
+/home/c4tch/Documents/GitHub/ConsoleChess/ConsoleChess/ConsoleChess/obj/Debug/netcoreapp3.1/ConsoleChess.csprojAssemblyReference.cache
+/home/c4tch/Documents/GitHub/ConsoleChess/ConsoleChess/ConsoleChess/obj/Debug/netcoreapp3.1/ConsoleChess.AssemblyInfoInputs.cache
+/home/c4tch/Documents/GitHub/ConsoleChess/ConsoleChess/ConsoleChess/obj/Debug/netcoreapp3.1/ConsoleChess.AssemblyInfo.cs
+/home/c4tch/Documents/GitHub/ConsoleChess/ConsoleChess/ConsoleChess/obj/Debug/netcoreapp3.1/ConsoleChess.csproj.CoreCompileInputs.cache
+/home/c4tch/Documents/GitHub/ConsoleChess/ConsoleChess/ConsoleChess/obj/Debug/netcoreapp3.1/ConsoleChess.dll
+/home/c4tch/Documents/GitHub/ConsoleChess/ConsoleChess/ConsoleChess/obj/Debug/netcoreapp3.1/ConsoleChess.pdb
+/home/c4tch/Documents/GitHub/ConsoleChess/ConsoleChess/ConsoleChess/obj/Debug/netcoreapp3.1/ConsoleChess.genruntimeconfig.cache

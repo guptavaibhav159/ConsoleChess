@@ -2,6 +2,18 @@ using System.Collections;
 
 namespace ConsoleChess
 {
+    public class Dummy : ChessPiece
+    {
+        public Dummy((int, int) position) : base(true, position, ' ')
+        {
+        }
+
+        public override void CalculateRelativeMovement()
+        {
+            RelativeMovement = null;
+        }
+    }
+
     public class King : ChessPiece
     {
         public King(bool isWhite, (int, int) position) : base(isWhite, position, isWhite ? '♔' : '♚')

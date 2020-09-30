@@ -24,8 +24,10 @@
   <component name="ChangeListManager">
     <list default="true" id="47197cf9-39da-49ec-9a94-de0b302792fd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ConsoleChess/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ConsoleChess/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleChess/ChessBoard.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleChess/ChessBoard.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ConsoleChess/ChessPieces.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleChess/ChessPieces.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleChess/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleChess/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleChess/obj/Debug/netcoreapp3.1/ConsoleChess.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleChess/obj/Debug/netcoreapp3.1/ConsoleChess.csprojAssemblyReference.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,8 +44,9 @@
         <option value="$PROJECT_DIR$/ConsoleChess/Symbols.cs" />
         <option value="$PROJECT_DIR$/ConsoleChess/Rook.cs" />
         <option value="$PROJECT_DIR$/ConsoleChess/ChessPiece.cs" />
-        <option value="$PROJECT_DIR$/ConsoleChess/ChessBoard.cs" />
         <option value="$PROJECT_DIR$/ConsoleChess/ChessPieces.cs" />
+        <option value="$PROJECT_DIR$/ConsoleChess/Program.cs" />
+        <option value="$PROJECT_DIR$/ConsoleChess/ChessBoard.cs" />
       </list>
     </option>
   </component>
@@ -59,6 +62,7 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../ShelvingSystem" />
     <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.notifications" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -90,14 +94,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601468147420</updated>
-      <workItem from="1601468154617" duration="5487000" />
+      <workItem from="1601468154617" duration="8910000" />
+      <workItem from="1601477371496" duration="2000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -109,19 +114,40 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="743" y="313" width="424" height="487" key="FileChooserDialogImpl" timestamp="1601474173981">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="743" y="313" width="424" height="487" key="FileChooserDialogImpl/0.30.1920.1050@0.30.1920.1050" timestamp="1601474173981" />
+    <state width="1874" height="412" key="GridCell.Tab.0.bottom" timestamp="1601477345913">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1874" height="412" key="GridCell.Tab.0.bottom/0.30.1920.1050@0.30.1920.1050" timestamp="1601477345913" />
+    <state width="1874" height="412" key="GridCell.Tab.0.center" timestamp="1601477345912">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1874" height="412" key="GridCell.Tab.0.center/0.30.1920.1050@0.30.1920.1050" timestamp="1601477345912" />
+    <state width="1874" height="412" key="GridCell.Tab.0.left" timestamp="1601477345911">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1874" height="412" key="GridCell.Tab.0.left/0.30.1920.1050@0.30.1920.1050" timestamp="1601477345911" />
+    <state width="1874" height="412" key="GridCell.Tab.0.right" timestamp="1601477345912">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1874" height="412" key="GridCell.Tab.0.right/0.30.1920.1050@0.30.1920.1050" timestamp="1601477345912" />
     <state x="543" y="292" width="824" height="528" key="IDE.errors.dialog" timestamp="1601472413306">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state x="543" y="292" width="824" height="528" key="IDE.errors.dialog/0.30.1920.1050@0.30.1920.1050" timestamp="1601472413306" />
-    <state x="740" y="192" width="429" height="729" key="RiderGenerateDialog" timestamp="1601471551289">
+    <state x="740" y="192" width="429" height="729" key="RiderGenerateDialog" timestamp="1601474026851">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state x="740" y="192" width="429" height="729" key="RiderGenerateDialog/0.30.1920.1050@0.30.1920.1050" timestamp="1601471551289" />
+    <state x="740" y="192" width="429" height="729" key="RiderGenerateDialog/0.30.1920.1050@0.30.1920.1050" timestamp="1601474026851" />
     <state x="736" y="127" width="992" height="733" key="SettingsEditor" timestamp="1601469128595">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
