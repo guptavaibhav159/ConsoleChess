@@ -11,12 +11,35 @@ namespace ConsoleChess
 
         public sealed override void CalculateRelativeMovement()
         {
+            var possibleMoves = new ArrayList();
             
-        }
+            if (ChessBoard.CheckBounds(Position.Item1 + 1, Position.Item2))
+                possibleMoves.Add((Position.Item1 + 1, Position.Item2));
+            if (ChessBoard.CheckBounds(Position.Item1, Position.Item2 + 1))
+                possibleMoves.Add((Position.Item1, Position.Item2 + 1));
+            
+            if (ChessBoard.CheckBounds(Position.Item1 - 1, Position.Item2))
+                possibleMoves.Add((Position.Item1 - 1, Position.Item2));
+            if (ChessBoard.CheckBounds(Position.Item1, Position.Item2 - 1))
+                possibleMoves.Add((Position.Item1, Position.Item2 - 1));
+            
+            if (ChessBoard.CheckBounds(Position.Item1 + 1, Position.Item2 + 1))
+                possibleMoves.Add((Position.Item1 + 1, Position.Item2 + 1));
+            if (ChessBoard.CheckBounds(Position.Item1 - 1, Position.Item2 - 1))
+                possibleMoves.Add((Position.Item1 - 1, Position.Item2 - 1));
+            
+            if (ChessBoard.CheckBounds(Position.Item1 + 1, Position.Item2 - 1))
+                possibleMoves.Add((Position.Item1 + 1, Position.Item2 - 1));
+            if (ChessBoard.CheckBounds(Position.Item1 - 1, Position.Item2 + 1))
+                possibleMoves.Add((Position.Item1 - 1, Position.Item2 + 1));
 
-        private (int, int)[] CheckSurroundings()
-        {
-            
+            RelativeMovement = new (int, int)[possibleMoves.Count];
+            var i = 0;
+            foreach ((int, int) move in possibleMoves)
+            {
+                RelativeMovement[i] = move;
+                i++;
+            }    
         }
     }
 

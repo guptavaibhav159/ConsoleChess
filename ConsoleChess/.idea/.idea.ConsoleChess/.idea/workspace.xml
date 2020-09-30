@@ -23,10 +23,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="47197cf9-39da-49ec-9a94-de0b302792fd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ConsoleChess/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ConsoleChess/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ConsoleChess/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ConsoleChess/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleChess/ChessBoard.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleChess/ChessBoard.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ConsoleChess/ChessPieces.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleChess/ChessPieces.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +90,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601468147420</updated>
-      <workItem from="1601468154617" duration="4531000" />
+      <workItem from="1601468154617" duration="5487000" />
     </task>
     <servers />
   </component>
