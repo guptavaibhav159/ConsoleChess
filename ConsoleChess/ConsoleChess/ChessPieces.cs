@@ -1,5 +1,25 @@
+using System.Collections;
+
 namespace ConsoleChess
 {
+    public class King : ChessPiece
+    {
+        public King(bool isWhite, (int, int) position) : base(isWhite, position, isWhite ? '♔' : '♚')
+        {
+            CalculateRelativeMovement();
+        }
+
+        public sealed override void CalculateRelativeMovement()
+        {
+            
+        }
+
+        private (int, int)[] CheckSurroundings()
+        {
+            
+        }
+    }
+
     public class Rook : ChessPiece
     {
         public Rook(bool isWhite, (int, int) position) : base(isWhite, position, isWhite ? '♖' : '♜')
@@ -9,34 +29,18 @@ namespace ConsoleChess
 
         public sealed override void CalculateRelativeMovement()
         {
-            if (IsWhite)
+            var hasMoved = HasMoved();
+            RelativeMovement = new (int, int)[hasMoved ? 1 : 2];
+            RelativeMovement[0] = (Position.Item1, IsWhite ? Position.Item2 + 1 : Position.Item2 - 1);
+            if (!hasMoved)
             {
-                if (Position.Item2 == 1)
-                    RelativeMovement = new (int, int)[]
-                    {
-                        (Position.Item1, Position.Item2 + 1),
-                        (Position.Item1, Position.Item2 + 2)
-                    };
-                else
-                    RelativeMovement = new (int, int)[]
-                    {
-                        (Position.Item1, Position.Item2 + 1)
-                    };
+                RelativeMovement[1] = (Position.Item1, IsWhite ? Position.Item2 + 2 : Position.Item2 - 2);
             }
-            else
-            {
-                if (Position.Item2 == 6)
-                    RelativeMovement = new (int, int)[]
-                    {
-                        (Position.Item1, Position.Item2 - 1),
-                        (Position.Item1, Position.Item2 - 2)
-                    };
-                else
-                    RelativeMovement = new (int, int)[]
-                    {
-                        (Position.Item1, Position.Item2 - 1)
-                    };
-            }
+        }
+
+        private bool HasMoved()
+        {
+            return IsWhite ? Position.Item2 == 1 : Position.Item2 == 6;
         }
     }
 }

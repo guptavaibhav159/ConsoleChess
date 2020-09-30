@@ -25,7 +25,8 @@
     <list default="true" id="47197cf9-39da-49ec-9a94-de0b302792fd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ConsoleChess/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ConsoleChess/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ConsoleChess/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ConsoleChess/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleChess/ChessPiece.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleChess/ChessPiece.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleChess/ChessBoard.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleChess/ChessBoard.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleChess/ChessPieces.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleChess/ChessPieces.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +43,7 @@
         <option value="$PROJECT_DIR$/ConsoleChess/Symbols.cs" />
         <option value="$PROJECT_DIR$/ConsoleChess/Rook.cs" />
         <option value="$PROJECT_DIR$/ConsoleChess/ChessPiece.cs" />
+        <option value="$PROJECT_DIR$/ConsoleChess/ChessBoard.cs" />
         <option value="$PROJECT_DIR$/ConsoleChess/ChessPieces.cs" />
       </list>
     </option>
@@ -89,7 +91,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601468147420</updated>
-      <workItem from="1601468154617" duration="3077000" />
+      <workItem from="1601468154617" duration="4531000" />
     </task>
     <servers />
   </component>
@@ -113,10 +115,14 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="740" y="192" width="429" height="729" key="RiderGenerateDialog" timestamp="1601470491534">
+    <state x="543" y="292" width="824" height="528" key="IDE.errors.dialog" timestamp="1601472413306">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state x="740" y="192" width="429" height="729" key="RiderGenerateDialog/0.30.1920.1050@0.30.1920.1050" timestamp="1601470491534" />
+    <state x="543" y="292" width="824" height="528" key="IDE.errors.dialog/0.30.1920.1050@0.30.1920.1050" timestamp="1601472413306" />
+    <state x="740" y="192" width="429" height="729" key="RiderGenerateDialog" timestamp="1601471551289">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="740" y="192" width="429" height="729" key="RiderGenerateDialog/0.30.1920.1050@0.30.1920.1050" timestamp="1601471551289" />
     <state x="736" y="127" width="992" height="733" key="SettingsEditor" timestamp="1601469128595">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
