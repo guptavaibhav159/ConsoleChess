@@ -4,7 +4,7 @@ namespace ConsoleChess
     {
         public bool IsWhite { get; }
         public (int, int) Position { get; }
-        public int[] RelativeMovement { get; set; }
+        public (int, int)[] RelativeMovement { get; set; }
         public char Symbol { get; }
 
         public ChessPiece(bool isWhite, (int, int) position, char symbol)
